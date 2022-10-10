@@ -1,0 +1,8 @@
+.wrapper {
+  margin: 30px;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+}

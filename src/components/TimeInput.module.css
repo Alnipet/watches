@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.inputInner {
+  margin-right: 25px;
+}
+
+.text {
+  margin-right: 5px;
+  display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  align-self: flex-end;
+  cursor: pointer;
+}
